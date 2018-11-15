@@ -1,0 +1,6 @@
+word = input("Please enter an Word: ")
+letter = set(word)
+vowels = frozenset("aeiou")
+minus = letter.difference(vowels)
+sort_answer = sorted(minus)
+print("Sua palavra sem as vogals fica {}".format(sort_answer))
